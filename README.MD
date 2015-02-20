@@ -1,6 +1,6 @@
 Hey there :)
 
-Table of Contents: (Use Control+F to navigate this document, whatitis - whattocontrol+ffor)
+Table of Contents: (Use Control+F to navigate this document, whatitis - whattocontrol+f for)
 1. So Hi! - Alpha
 2. Folder name syntax. - Bravo
 3. What is actually in this folder? - Charmander
