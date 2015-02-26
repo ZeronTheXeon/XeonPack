@@ -18,8 +18,7 @@ cfg folder name syntax:
 ..........CHARMANDER..........
 
 Explanation of WHAT IS IN THIS FOLDER:
-You will find the latest version of my scripts, mods, customizations, and other small tweaks and changes. These can, of course, be dragged
-straight into the /tf/ folder. Once the folders are dragged in, just rename them and remove the date from the name.
+You will find the latest version of my scripts, mods, customizations, and other small tweaks and changes. These can, of course, be dragged straight into the /tf/ folder. Once the folders are dragged in, just rename them and remove the date from the name.
 
 Folders:
 
