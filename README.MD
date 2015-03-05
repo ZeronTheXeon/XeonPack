@@ -4,6 +4,7 @@ Table of Contents: (Use Control+F to navigate this document, whatitis - whattoco
 1. So Hi! - Alpha
 2. Folder name syntax. - Bravo
 3. What is actually in this folder? - Charmander
+4. Misc stuff - Delta
 
 ..........ALPHA..........
 
@@ -45,3 +46,17 @@ actually want to or not.
 OF ALL VPKS ABOVE, YOU ONLY NEED TO INSTALL THE ONES YOU LIKE/NEED. THEY ARE FOR FPS PURPOSES, BUT ARE STILL WIDELY 
 USED.
 
+..........DELTA..........
+
+Misc Stuff:
+Sensitivity type settings:
+Logitech G700s
+"In-Game: 4
+"Mouse DPI: 800
+"MarkC's Mouse Fix
+"Windows Sensitivity 6/11
+"5.1 In/360
+"13 Cm/360
+
+Keyboard:
+Some random Dell one...
