@@ -5,3 +5,5 @@ koth_nucleus
 koth_sawmill
 koth_viaduct
 koth_king
+koth_suijin
+koth_probed

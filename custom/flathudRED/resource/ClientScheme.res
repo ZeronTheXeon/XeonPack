@@ -34,23 +34,28 @@ Scheme
 		"MenuDark"      "222 0 0 255"                  //Darker borders (not used very often)
 		"MenuHover"     "168 0 0 255"                  //Hover color (only used in matchmaking and quickplay)
 		"MainMenuBG"	"0 0 0 255"						//Optional solid color background, enable in mainmenuoverride.res
-		
-		
+			
+		//refers to Ammo values, Ammo Low is used as the low ammo BG color
 		"Ammo In Clip"							"255 255 255 255"
 		"Ammo In Reserve"						"255 255 255 255"
-		"Ammo In Clip Low"						"255 151 38 255"
-		"Ammo In Reserve Low"					"255 51 51 255"
 		"Ammo No Clip"							"255 255 255 255"
+		"Ammo Low"								"255 51 51 255"
+		
 		
 		//refers to watching stvs/killcam shots
 		"Spec Health Normal"					"255 255 255 255"
 		"Spec Health Buff"						"0 200 100 255"			
-		"Spec Health Hurt"						"255 153 0 255"
+		"Spec Health Hurt"						"255 51 51 255"
 		
 		//refers to player health/targetids
 		"Health Normal"							"255 255 255 255"
 		"Health Buff"							"0 200 100 255"
-		"Health Hurt"							"255 153 0 255"
+		"Health Hurt"							"255 51 51 255"
+		
+		//Change these if you're using the Brosel cross or Health cross
+		"Health Normal Cross"					"255 255 255 255"
+		"Health Buff Cross"						"255 255 255 255"
+		"Health Hurt Cross"						"255 255 255 255"
 		
 		"Uber Bar Color"						"235 226 202 255"
 
@@ -109,6 +114,13 @@ Scheme
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
+		
+		"QuestGold"			"208 147 75 255"
+		"HalloweenThemeColor2015_Light"	"238 126 17 255"
+		"HalloweenThemeColor2015"		"135 54 16 255"
+		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
+		"QuestStandardHighlight"	"0 255 0 255"
+		"QuestBonusHighlight"		"150 160 255 255"
 		
 		"White"				"235 235 235 255"
 		"Red"				"192 28 0 140"
@@ -538,7 +550,7 @@ Scheme
 			"1"
 			{
 				"name"		"WeblySleek UI Semibold"
-				"tall"		"12"
+				"tall"		"10"
 				"antialias" 	"1"
 			}
 			"2"
@@ -1999,6 +2011,39 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"ImportToolSmallestBold"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"600"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"ImportToolSmallest"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"SpectatorVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
 		"DefaultVerySmallFallBack"
 		{
@@ -2062,6 +2107,17 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"ItemFontNameLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ItemFontAttribSmallest"
 		{
 		"1"
@@ -2081,7 +2137,17 @@ Scheme
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
-		}	
+		}
+		"ItemFontAttribSmallv2"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"antialias" "1"
+				"weight"	"500"
+			}
+		}		
 		"ItemFontAttribLarge"
 		{
 		"1"
@@ -2091,6 +2157,17 @@ Scheme
 				"additive"	 "0"
 				"antialias"	 "1"
 			}	
+		}
+		"ItemFontAttribLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
 		}
 		"AchievementTracker_Name"
 		{
@@ -2123,6 +2200,313 @@ Scheme
 			}
 		}
 		
+		"QuestObjectiveTracker_Desc"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"0"
+				"additive"	"1"
+				"antialias" 	"1"
+			}
+		}
+		"QuestObjectiveTracker_DescGlow"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"QuestObjectiveTracker_DescBlur"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"0"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+				"custom"	"1"
+			}
+		}
+		"ItemTrackerScore_InGame"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"QuestFlavorText"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"ocra"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"ocra"
+				"tall"		"18"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+
+		"QuestObjectiveText"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"10"
+				"weight"	"800"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"ocra"
+				"tall"		"14"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"ocra"
+				"tall"		"18"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+		
+		"QuestLargeText"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"16"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestStickyText"
+		{
+			"1"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"20"
+				"antialias" "1"
+				"custom"		"1" [$OSX]
+				"weight"	"500"
+			}
+		}
+		"QuestInstructionText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+
+		"QuestFlavorText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+		}
+
+		"QuestObjectiveText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"800"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"18"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+
+		"QuestMediumText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"13"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"QuestLargeText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"16"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"AdFont_ItemName"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+ 		
+		"AdFont_AdText"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"AdFont_PurchaseButton"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"TradeUp_Text"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"TradeUp_Quote"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"9"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+				"italic"	"1"
+			}
+		}
 		
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
@@ -2628,12 +3012,22 @@ Scheme
 			}
 		}
 		
-		"Sosa Small"
+		"Sosa Verysmall"
 		{
 			"1"
 			{
 			"name"			"Sosa Regular"
 			"tall"			"14"
+			"antialias"		"1"
+			}
+		}
+		
+		"Sosa Small"
+		{
+			"1"
+			{
+			"name"			"Sosa Regular"
+			"tall"			"18"
 			"antialias"		"1"
 			}
 		}
@@ -3378,27 +3772,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "4 1"
 				}
 			}
@@ -3407,27 +3801,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "4 1"
 				}
 			}
@@ -3436,27 +3830,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "4 1"
 				}
 			}
@@ -3468,27 +3862,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "4 1"
 				}
 			}
@@ -3497,27 +3891,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "4 1"
 				}
 			}
@@ -3526,27 +3920,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "4 1"
 				}
 			}
@@ -3558,7 +3952,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "0 4"
 				}
 			}
@@ -3567,7 +3961,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "0 0"
 				}
 			}
@@ -3576,7 +3970,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "0 0"
 				}
 			}
@@ -3585,7 +3979,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "0 0"
 				}
 			}
@@ -4326,27 +4720,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "4 1"
 				}
 			}
@@ -4355,27 +4749,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "4 1"
 				}
 			}
@@ -4384,27 +4778,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "MenuMouseover"
+					"color" "MenuTabs"
 					"offset" "4 1"
 				}
 			}
@@ -4816,7 +5210,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_rect_mouseover"
+			"image"					"replay/thumbnails/flat_black"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -4827,9 +5221,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"button_holder_central"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
+			"image"					"replay/thumbnails/flat_black"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
@@ -6605,92 +6999,75 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7" // Main font
+		"7" "resource/ocra.ttf"
+		"8" // Main font
 		{
 		
 			"font" "resource/fonts/Cerbetica.ttf"
 			"name" "Cerbetica"
 		}
-		"8" // Tournament HUD block
+		"9" // Tournament HUD block
 		{
 		
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
-		"9" // Fog's xHairs
+		"10" // Fog's xHairs
 		{
 			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
 		}
-		"10" // Thin Cross
+		"11" // Thin Cross
 		{
 			"font" "resource/fonts/Symbol.ttf"
 			"name" "Symbol"
 		}
-		"11" // Konr Wings
+		"12" // Konr Wings
 		{
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
 		}
-		"12" // Edited font for TargetIDs, menus, etc.
+		"13" // Edited font for TargetIDs, menus, etc.
 		{
 		
 			"font" "resource/fonts/Cerbetica_edited.ttf"
 			"name" "Cerbetica"
 		}
-		"13" // Cerbetica Bolded, for ammo/health, etc.
+		"14" // Cerbetica Bolded, for ammo/health, etc.
 		{
 		
 			"font" "resource/fonts/Cerbetica_bold.ttf"
 			"name" "Cerbetica_bold"
 		}
-		"14" // BigNoodleTitling (Main font)
+		"15" // BigNoodleTitling (Main font)
 		{
 		    "font" "resource/fonts/big_noodle_titling.ttf"
 			"name" "BigNoodleTitling"
         }
-		"15" // WeblySleek (Body font)
+		"16" // WeblySleek (Body font)
 		{
 		    "font" "resource/fonts/weblysleekuisb.ttf"
 			"name" "WeblySleek UI Semibold"
 		}
-		"16" //Blocks (Body font)
+		"17" //Blocks (Body font)
 		{
 		    "font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
-		"17" //Entypo
+		"18" //Entypo
 		{
 			"font" "resource/fonts/Entypo.otf"
 			"name" "Entypo"
 		}
-		"18" //Sosa
+		"19" //Sosa
 		{
 			"font" "resource/fonts/sosa-regular-webfont.ttf"
 			"name" "Sosa Regular"
 		}
-		"19"
+		"20"
 		{
             "font" "resource/fonts/Paula.ttf"
             "name" "Paula"
         }
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

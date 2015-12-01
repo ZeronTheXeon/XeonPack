@@ -1,21 +1,5 @@
 "Resource/HudLayout.res"
 {
-	//"TransparentViewmodelMask"
-	//{
-	////alpha doesn't work for this, you need to change the texture's alpha
-	//"ControlName"	"ImagePanel"
-	//"fieldName"	"TransparentViewmodelMask"
-	//"xpos"	"0"
-	//"ypos"	"0"
-	//"zpos"	"-100"
-	//"wide"	"f0"
-	//"tall"	"480"
-	//"visible"	"1"
-	//"enabled"	"1"
-	//"image"	"replay/thumbnails/REFRACTnormal_transparent"
-	//"scaleImage"	"1"
-	//}
-	
 	//###########################//
 	//    FOG'S CROSSHAIRS V3    //
 	//    	 (C) FOG 2014        //
@@ -513,12 +497,13 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}
+	
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c70"
+		"xpos"	"c72"
 		"ypos"	"c66"
 		"wide"	"300" //was made 4 units taller in MvM update
 		"tall"	"300"
@@ -742,7 +727,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c135"
+		"ypos"		"c115"
 		"zpos"		"1"
 		"wide"	 	"200"
 		"tall"	 	"45"

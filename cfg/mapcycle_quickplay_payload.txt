@@ -5,3 +5,4 @@ pl_hoodoo_final
 pl_thundermountain
 pl_upward
 pl_barnblitz
+pl_borneo
