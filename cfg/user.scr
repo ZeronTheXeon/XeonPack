@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Jun 26 16:26:57 AM
+// File generated:  Fri Dec 18 18:07:11 AM
 //
 //
 // Cvar	-	Setting
@@ -71,10 +71,60 @@ DESCRIPTION INFO_OPTIONS
 		{ "1" }
 	}
 
+	"tf_dingaling_volume"
+	{
+		"#TF_Dingaling_Volume"
+		"#Tooltip_Dingaling_Volume"
+		{ SLIDER 0 1 }
+		{ "0.75" }
+	}
+
+	"tf_dingalingaling_effect"
+	{
+		"#tf_dingalingaling_effect"
+		{
+			LIST
+			"#tf_dingalingaling_Default" "0"
+			"#tf_dingalingaling_Electro" "1"
+			"#tf_dingalingaling_Notes" "2"
+			"#tf_dingalingaling_Percussion" "3"
+			"#tf_dingalingaling_Retro" "4"
+			"#tf_dingalingaling_Space" "5"
+			"#tf_dingalingaling_Beepo" "6"
+			"#tf_dingalingaling_Vortex" "7"
+			"#tf_dingalingaling_Squasher" "8"
+		}
+		{ "0" }
+	}
+
+	"tf_dingaling_pitchmindmg"
+	{
+		"#TF_Dingaling_PitchLowDmg"
+		"#Tooltip_Dingaling_PitchLowDmg"
+		{ SLIDER 1 255 }
+		{ "100" }
+	}
+
+	"tf_dingaling_pitchmaxdmg"
+	{
+		"#TF_Dingaling_PitchHighDmg"
+		"#Tooltip_Dingaling_PitchHighDmg"
+		{ SLIDER 1 255 }
+		{ "100" }
+	}
+
 	"hud_combattext"
 	{
 		"#TF_CombatText"
 		"#Tooltip_CombatText"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_combattext_batching"
+	{
+		"#TF_CombatTextBatching"
+		"#Tooltip_CombatTextBatching"
 		{ BOOL }
 		{ "1" }
 	}
@@ -219,6 +269,13 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"tf_enable_glows_after_respawn"
+	{
+		"#TF_EnableGlowsAfterRespawn"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"cl_hud_playerclass_use_playermodel"
 	{
 		"#GameUI_HudPlayerClassUsePlayerModel"
@@ -322,6 +379,40 @@ DESCRIPTION INFO_OPTIONS
 		{ "100" }
 	}
 
+	"tf_contract_progress_show"
+	{
+		"#TF_Contract_Progress"
+		"#ToolTip_TF_Contract_Progress"
+		{
+			LIST
+			"#TF_Contract_Progress_None" "0"
+			"#TF_Contract_Progress_All" "1"
+			"#TF_Contract_Progress_Active" "2"
+		}
+		{ "1" }
+	}
+
+	"tf_scoreboard_mouse_mode"
+	{
+		"#TF_ScoreBoard_MouseMode"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"tf_scoreboard_ping_as_text"
+	{
+		"#TF_ScoreBoard_PingAsText"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"tf_scoreboard_alt_class_icons"
+	{
+		"#TF_ScoreBoard_AltClassIcons"
+		{ BOOL }
+		{ "0" }
+	}
+
 	"category4"
 	{
 		"#TF_OptionCategory_Replay"
@@ -411,7 +502,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_Multiplayer_Decal_Limit"
 		"#Tooltip_Multiplayer_Decal_Limit"
 		{ NUMBER 0 4096 }
-		{ "9" }
+		{ "1" }
 	}
 
 	"category6"
@@ -480,7 +571,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_UseSteamCloud"
 		"#Tooltip_UseSteamCloud"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_steamscreenshots"
