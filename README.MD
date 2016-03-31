@@ -1,41 +1,37 @@
-Hey there :)
+#Hey there :)
 
-Table of Contents: (Use Control+F to navigate this document, whatitis - whattocontrol+f for)
-1. So Hi! - Alpha
-2. Folder name syntax. - Bravo
-3. What is actually in this folder? - Charmander
-4. Misc stuff - Delta
+##Table of Contents: (Use Control+F to navigate this document, whatitis - whattocontrol+f for)
+1. Alpha: So Hi!
+2. Bravo: Folder name syntax.
+3. Charmander: What is actually in this folder?
+4. Delta: Misc stuff
 
-..........ALPHA..........
+###ALPHA
 
 In this folder, you will find my HUD, my mods, and anything else I feel like posting.
 
-..........BRAVO..........
+###BRAVO
 
-cfg folder name syntax:
+Folder name syntax:
 [cfg]: Constant, or until name change.
 [YYYY-MM-DD]: All dates are written in ISO 8601. For more, visit: https://i.imgur.com/7YXXJGv.png
 
-..........CHARMANDER..........
+###CHARMANDER
 
-Explanation of WHAT IS IN THIS FOLDER:
+*Explanation of WHAT IS IN THIS FOLDER:*
 You will find the latest version of my scripts, mods, customizations, and other small tweaks and changes. These can, of course, be dragged straight into the /tf/ folder. Once the folders are dragged in, just rename them and remove the date from the name.
 
 Folders:
 
-Folder name syntax is explained above, from now on, I will be bundling mods/plugins within their respective folders, as well as
-explaining how to customize each if requested.
-
-Customizations: Any little tweaks anybody ask of me, or I myself need, I try to put in here. Any requests will be fulfilled.
+Folder name syntax is explained above.
+* cfg-YYYY-MM-DD: The config folder as of that day.
+* custom-YYYY-MM-DD: The custom folder as of that day.
+* custom-YYYY-MM-DD/DISABLED: Disabled vpk's and mods. The sound folder located there shouldn't have anything in it but a .cache.
+* Tweaks: Any little tweaks anybody ask of me, or I myself need, I try to put in here. Any requests will be fulfilled.
 
 VPK's:
 
-LoD Project: Highly recommended, creates LoD meshes to reduce lag on distance. Only about 8% done and its been 2 years.
-
-nohatsmod: Basically in the name, disables hats on all players except for some new ones. Gets updated often.
-Blasphemous, I know.
-
-nosoundscapes: Disables ambient sounds on maps, basically taking the dubstep or bird noises off those kinds of maps.
+* nosoundscapes: Disables ambient sounds on maps, basically taking the dubstep or bird noises off those kinds of maps.
 
 tip_itemfx: Nifty little mod that will attempt to revamp the particles, optimizing and preventing some lag spikes that
 EVERYONE faces.
@@ -49,14 +45,16 @@ USED.
 ..........DELTA..........
 
 Misc Stuff:
+
 Sensitivity type settings:
+
 Logitech G700s
-"In-Game: 4
-"Mouse DPI: 800
-"MarkC's Mouse Fix
-"Windows Sensitivity 6/11
-"5.1 In/360
-"13 Cm/360
+* In-Game: 4
+* Mouse DPI: 800
+* MarkC's Mouse Fix
+* Windows Sensitivity 6/11
+* 5.1 In/360
+* 13 Cm/360
 
 Keyboard:
 Some random Dell one...

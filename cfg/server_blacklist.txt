@@ -1,9 +1,0 @@
-"serverblacklist"
-{
-	"server"
-	{
-		"name"		"JAC95501's idle/trade server [Frag radio, robot, bosses]"
-		"date"		"1391991638"
-		"addr"		"75.111.38.243:27018"
-	}
-}
